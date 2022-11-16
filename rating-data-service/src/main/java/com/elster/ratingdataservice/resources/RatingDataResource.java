@@ -11,6 +11,6 @@ public class RatingDataResource {
 
     @RequestMapping("/movieId")
     public Rating getRating(@PathVariable("movieId") String movieId) {
-        return new Rating(movieId, 4); //Added this comment only to check the GIT statistics
+        return new Rating(movieId, 4);
     }
 }
